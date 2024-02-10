@@ -10,3 +10,9 @@
 *.lai
 *.la
 *.a
+
+# build artifacts
+build
+
+# IDE, Editors
+.vscode
