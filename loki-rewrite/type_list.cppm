@@ -357,5 +357,12 @@ static_assert(std::is_same_v<
 static_assert(
     std::is_same_v<Reverse<TypeList<int, double>>, TypeList<double, int>>);
 
+
+
+
+
+
+
+
 } // namespace type_list
 } // namespace loki

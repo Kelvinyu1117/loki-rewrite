@@ -770,7 +770,7 @@ namespace Loki
             typedef typename MostDerived<Tail, Head>::Result
                 TheMostDerived;
             typedef typename Replace<Tail,
-                TheMostDerived, Head>::Result Temp;
+                TheMostDerived, Head> ::Result Temp;
             typedef typename DerivedToFront<Temp>::Result L;
         public:
             typedef Typelist<TheMostDerived, L> Result;
